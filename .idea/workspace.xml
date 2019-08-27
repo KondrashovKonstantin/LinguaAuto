@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f24d556-9191-4fa6-a202-81119586bb5a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LinguaAuto" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PJfjoBq8sxQzdoDCwgP423uWNC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml">
+    <configuration name="C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.testNumber1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTest.testNumber1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
+        <item itemvalue="TestNG.TestTest.testNumber1" />
+        <item itemvalue="TestNG.TestTest.testNumber1 (1)" />
+        <item itemvalue="TestNG.TestTest" />
+        <item itemvalue="TestNG.TestTest (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f24d556-9191-4fa6-a202-81119586bb5a" name="Default Changelist" comment="" />
+      <created>1565597257639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565597257639</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

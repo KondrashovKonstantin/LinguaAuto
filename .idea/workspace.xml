@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f24d556-9191-4fa6-a202-81119586bb5a" name="Default Changelist" comment="" />
+    <list default="true" id="3f24d556-9191-4fa6-a202-81119586bb5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinguaAuto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/BaseFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/BaseFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/framework/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/framework/BaseSignInUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/loginpage/ElementsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/loginpage/ElementsLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/loginpage/MethodsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/loginpage/MethodsLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/nsonboarding/MethodsNSonboarding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/nsonboarding/MethodsNSonboarding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/regresiontests/TestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/regresiontests/SignInUpFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/LinguaAuto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BaseFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/BaseFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/framework/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/framework/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/loginpage/ElementsLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/loginpage/ElementsLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/loginpage/MethodsLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/loginpage/MethodsLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/nsonboarding/MethodsNSonboarding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/nsonboarding/MethodsNSonboarding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/regresiontests/TestTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LinguaAuto" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -30,11 +49,12 @@
   <component name="ProjectId" id="1PJfjoBq8sxQzdoDCwgP423uWNC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml">
+  <component name="RunManager" selected="TestNG.SignInUpFlow.testLoginNegativePassword (1)">
     <configuration name="C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LinguaAuto" />
       <extension name="coverage">
@@ -59,28 +79,9 @@
       </extension>
       <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
       <option name="PACKAGE_NAME" value="regresiontests" />
-      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
-      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
+      <option name="METHOD_NAME" value="testLoginNegativeEmail" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LinguaAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="regresiontests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
-      <option name="PACKAGE_NAME" value="regresiontests" />
-      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
-      <option name="METHOD_NAME" value="testNumber1" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
@@ -88,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInUpFlow.testLoginNegativeEmail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LinguaAuto" />
       <extension name="coverage">
         <pattern>
@@ -97,26 +98,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="regresiontests" />
-      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTest.testNumber1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LinguaAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="regresiontests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="$USER_HOME$/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
-      <option name="PACKAGE_NAME" value="regresiontests" />
-      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
-      <option name="METHOD_NAME" value="testNumber1" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
+      <option name="METHOD_NAME" value="testLoginNegativeEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="0" />
       <properties />
@@ -125,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.testNumber1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInUpFlow.testLoginNegativeEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LinguaAuto" />
       <extension name="coverage">
         <pattern>
@@ -134,7 +117,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="regresiontests" />
-      <option name="MAIN_CLASS_NAME" value="regresiontests.TestTest" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
+      <option name="METHOD_NAME" value="testLoginNegativeEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInUpFlow.testLoginNegativePassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
+      <option name="METHOD_NAME" value="testLoginNegativePassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInUpFlow.testLoginNegativePassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
+      <option name="METHOD_NAME" value="testLoginNegativePassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInUpFlow.testNumber1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LinguaAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regresiontests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regresiontests" />
+      <option name="MAIN_CLASS_NAME" value="regresiontests.SignInUpFlow" />
       <option name="METHOD_NAME" value="testNumber1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -145,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SignInUpFlow.testLoginNegativePassword (1)" />
+        <item itemvalue="TestNG.SignInUpFlow.testLoginNegativePassword" />
+        <item itemvalue="TestNG.SignInUpFlow.testLoginNegativeEmail (1)" />
         <item itemvalue="TestNG.C:/Users/User/.IdeaIC2019.2/system/temp-testng-customsuite.xml" />
-        <item itemvalue="TestNG.TestTest.testNumber1" />
-        <item itemvalue="TestNG.TestTest.testNumber1 (1)" />
-        <item itemvalue="TestNG.TestTest" />
-        <item itemvalue="TestNG.TestTest (2)" />
+        <item itemvalue="TestNG.SignInUpFlow.testLoginNegativeEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +209,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

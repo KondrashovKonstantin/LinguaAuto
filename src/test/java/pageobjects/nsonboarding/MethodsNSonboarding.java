@@ -7,27 +7,8 @@ public class MethodsNSonboarding extends ElementsNSonboarding{
     public MethodsNSonboarding(WebDriver driver){
         super(driver);
     }
-    public void nsOnboardingPositive()throws InterruptedException{
-        languageItemClick(1);
-        intermediateLvlClick();
-        nextBtnClick();
-        setNameField("TestAutomation User");
-        setDescriptionField("Test description .... .... .... .... Test");
-        nextBtnClick();
-        nextBtnClick();
-        openCameraBtnClick();
-        recordVideoBtnClick();
-        Thread.sleep(5000);
-        log.info("Waiting - video recording 5 sec");
-        stopRecordingBtnClick();
-        waitForElementToBeApear(retryRecoedingBtn());
-        nextBtnClick();
-        fullTimeRdBtnClick();
-        setMonthlyRate(2000);
-        setSkypeId("TestSetSkypeId");
-        nextBtnClick();
 
-    }
+
     private void languageItemClick(int number){
         waitForElementToBeClickable(languageItem(number)).click();
         log.info("Click on language in the list");

@@ -8,6 +8,12 @@ class ElementsLogin extends BasePage {
     ElementsLogin(WebDriver driver){
         super(driver);
     }
+    By userNotFoundError(){
+        return By.xpath("//div[contains(text(),\"User not found\")]");
+    }
+    By passwordLoginError(){
+        return By.xpath("//div[contains(text(),\"Invalid password\")]");
+    }
     By emailField(){
         return By.xpath("//input[@data-testid=\"LoginForm_EmailInput\"]");
     }

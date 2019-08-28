@@ -26,8 +26,8 @@ public class BasePage {
     protected WebElement waitForElementToBeClickable(By locator) {
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
-    protected void waitForElementToBeApear(By locator){
-        wait.until((ExpectedConditions.visibilityOfElementLocated(locator)));
+    protected WebElement waitForElementToBeApear(By locator){
+        return wait.until((ExpectedConditions.visibilityOfElementLocated(locator)));
     }
 
 }

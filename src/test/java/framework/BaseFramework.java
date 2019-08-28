@@ -4,8 +4,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import pageobjects.leftsidebar.MethodsLeftSidebar;
 import pageobjects.loginpage.MethodsLogin;
 import pageobjects.nsonboarding.MethodsNSonboarding;
@@ -23,8 +22,8 @@ public class BaseFramework {
     protected MethodsNSonboarding nsApp;
 
 
-    @BeforeSuite
-    public void beforeSuite() {
+    @BeforeMethod
+    public void beforeTest(){
         options = new ChromeOptions();
         options.addArguments("--disable-notifications");
         options.addArguments("add --use-fake-ui-for-media-stream");
@@ -34,18 +33,18 @@ public class BaseFramework {
         leftSidebar = new MethodsLeftSidebar(driver);
         nsApp = new MethodsNSonboarding(driver);
         driver.manage().window().maximize();
-        driver.get("https://lingua-dev.idecisiongames.com/");
         String log4jConfPath = "log4j.properties";
         PropertyConfigurator.configure(log4jConfPath);
-
+        driver.get("https://lingua-dev.idecisiongames.com/");
     }
 
-    @AfterSuite
+
+    @AfterMethod
     public void afterSuite() {
-      //  if(null != driver) {
-        //    driver.close();
-     //       driver.quit();
-     //   }
+        if(null != driver) {
+           driver.close();
+           driver.quit();
+        }
     }
 
 

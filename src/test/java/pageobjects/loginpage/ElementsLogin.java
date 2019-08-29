@@ -15,24 +15,15 @@ class ElementsLogin extends BasePage {
         return By.xpath("//div[contains(text(),\"Invalid password\")]");
     }
     By emailField(){
-        return By.xpath("//input[@data-testid=\"LoginForm_EmailInput\"]");
+        return By.xpath("//input[@name=\"email\"]");
     }
     By passwordField(){
-        return By.xpath("//input[@data-testid=\"LoginForm_PasswordInput\"]");
+        return By.xpath("//input[@name=\"password\"]");
     }
-    By loginBtn(){
-        return By.xpath("//div[@data-testid=\"LoginForm_LoginBtn\"]");
-    }
-    By emailFieldSignUp(){
-        return By.xpath("//input[@data-testid=\"RegisterForm_EmailInput\"]");
-    }
-    By passwordFieldSignUp(){
-        return By.xpath("//input[@data-testid=\"RegisterForm_PasswordInput\"]");
+    By loginSignUpBtn(){
+        return By.xpath("//div[@role=\"button\"]");
     }
     By confirmPasswordFieldSignUp(){
-        return By.xpath("//input[@data-testid=\"RegisterForm_ConfirmPasswordInput\"]");
-    }
-    By signUpBtn(){
-        return By.xpath("//div[@data-testid=\"RegisterForm_RegisterBtn\"]");
+        return By.xpath("//input[@name='confirmPassword']");
     }
 }

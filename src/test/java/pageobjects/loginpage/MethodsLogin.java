@@ -9,11 +9,11 @@ public class MethodsLogin extends ElementsLogin{
         super(driver);
     }
     private void setEmailRegForm(String email){
-        waitForElementToBeClickable(emailFieldSignUp()).sendKeys(email);
+        waitForElementToBeClickable(emailField()).sendKeys(email);
         log.info("Entered email");
     }
     private void setPasswordRegForm(String password){
-        waitForElementToBeClickable(passwordFieldSignUp()).sendKeys(password);
+        waitForElementToBeClickable(passwordField()).sendKeys(password);
         log.info("Entered password");
     }
     private void setConfirmPasswordRegForm(String password){
@@ -21,7 +21,7 @@ public class MethodsLogin extends ElementsLogin{
         log.info("Entered confirm password");
     }
     private void signUpBtnClick(){
-        waitForElementToBeClickable(signUpBtn()).click();
+        waitForElementToBeClickable(loginSignUpBtn()).click();
         log.info("click Sign Up");
     }
     private void setEmail(String email){
@@ -33,7 +33,7 @@ public class MethodsLogin extends ElementsLogin{
         log.info("Entered password");
     }
     private void loginBtnClick(){
-        waitForElementToBeClickable(loginBtn()).click();
+        waitForElementToBeClickable(loginSignUpBtn()).click();
         log.info("Click login");
     }
     public void logInToApp(String email,String password){

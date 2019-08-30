@@ -12,7 +12,7 @@ public class BaseSignInUp extends BaseFramework {
     }
     public void loginNegativePasswordTest(){
         startPage.loginBtnClick();
-        loginPage.logInToApp("b@b.com", "password");
+        loginPage.logInToApp("test.valid@credentials.com", "password");
         loginPage.loginPasswordErrorAssertion();
     }
     public void loginPositiveTest (){

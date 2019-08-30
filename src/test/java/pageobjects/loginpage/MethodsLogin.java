@@ -1,6 +1,7 @@
 package pageobjects.loginpage;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -70,8 +71,9 @@ public class MethodsLogin extends ElementsLogin{
     public void loginPositiveAssertion(){
         try{
             waitForElementToBeApear(By.xpath("//div[contains(text(),\"My Classes\")]"));
-            log.info("User Signed In");        }
-        catch (Exception e){
+            log.info("User Signed In");
+        }
+        catch (TimeoutException e){
             log.error("Sign In failed");
             Assert.fail();
         }
